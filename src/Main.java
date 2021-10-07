@@ -12,9 +12,9 @@ public class Main {
             System.out.println("Wprowadź liczbę: ");
             guessedNumber = scanner.nextInt();
 
-            if(guessedNumber > numberToGuess){
+            if (guessedNumber > numberToGuess) {
                 System.out.println("Liczba jest za duża");
-            }else if(guessedNumber < numberToGuess){
+            } else if (guessedNumber < numberToGuess) {
                 System.out.println("Liczba jest za mała");
             }
             numberOfTries++;
